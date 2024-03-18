@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="projectporfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Ifeoluwa's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="skills.html">Skills</a></li>
+            </ul>
+        </nav>
+        <div class="toggle-container">
+            <input type="checkbox" id="toggle">
+            <label for="toggle" class="toggle-label">Toggle Dark Mode</label>
+        </div>
+    </header>
+    
+    <main>
+        <section class="about-me">
+        <img id="profilepic" class="iboy" src="/Users/mac/Desktop/master/IMG_4434.jpg" alt="Iboy">
+        <p class="aboutme">Hi there! I'm Ifeoluwa Duro-Bello, a passionate web developer with a knack for crafting engaging and user-friendly digital experiences. With 2 years of experience in the field, I've honed my skills in front-end and back-end development, UI/UX design, and everything in between. I thrive on turning ideas into reality through clean, efficient code and innovative solutions.</p>
+    </section>
+
+
+    <h1>Portfolio Catalogue</h1>
+        <section id="projects">
+            <!-- Project 1 -->
+            <div class="project">
+                <h2>Web Development</h2>
+                <p>This project involved designing and developing my personal portfolio website. I utilized HTML, CSS, and JavaScript to create a clean and responsive layout. The site showcases my skills, projects, and contact information, providing visitors with a comprehensive overview of my work.</p>
+                <p>Skills/Technologies Used: HTML, CSS, JavaScript</p> <br>
+                <a href="https://www.example.com/portfolio" target="_blank">View Project</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project">
+                <h2>E-commerce Platform</h2>
+                <p>For this project, I collaborated with a team to build a fully functional e-commerce platform from scratch. I contributed to both the front-end and back-end development, implementing features such as product listings, user authentication, shopping cart functionality, and secure payment processing.</p>
+                <p>Skills/Technologies Used: HTML, CSS, JavaScript, React, Node.js, Express, MongoDB</p>
+                <a href="https://www.example.com/ecommerce" target="_blank">View Project</a>
+            </div>
+            <!-- Project 3 -->
+            <div class="project">
+                <h2>Travel Blog</h2>
+                <p>In this project, I created a dynamic travel blog where users can share their travel experiences, photos, and tips. I designed the user interface, developed the front-end using React, and implemented a serverless back-end with Firebase Firestore for storing and retrieving blog posts.</p>
+                <p>Skills/Technologies Used: HTML, CSS, JavaScript, React, Firebase</p>
+                <a href="https://www.example.com/travelblog" target="_blank">View Project</a>
+            </div>
+        </section>
+
+        <h2>My Approach</h2>
+        <p>I believe in the power of collaboration and communication. Understanding your needs and goals is my top priority, ensuring that every project I work on is tailor-made to suit your unique requirements. I'm dedicated to delivering high-quality work that not only meets expectations but exceeds them.</p>
+
+        <h2>What Sets Me Apart</h2>
+        <p>In addition to my technical skills, I bring creativity, attention to detail, and a passion for continuous learning to the table. I stay up-to-date with the latest industry trends and technologies, allowing me to deliver cutting-edge solutions that stand out in today's competitive digital landscape.</p> 
+    </div>
+    </main>
+    <div class="form-container">
+        <h2>Let's Connect</h2>
+        <p>Whether you're a fellow developer, a potential client, or just someone passionate about technology, I'd love to connect with you! Feel free to explore my portfolio and get in touch to discuss how we can collaborate on your next project.</p> <br>
+    <form action="submit.php" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+        </div>
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+        </div>
+        <div class="form-group">
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</div>
+
+    <footer>
+        <h2>Seconds as a Programmer</h2>
+        <p id="secondsCounter">0 seconds</p>
+        <section id="logos">
+            <img src="/Users/mac/Desktop/master/1690387050271.png" alt="JavaScript Logo">
+        </section>
+    </footer>
+
+    <script src="projectporfolio.js"></script>
+</body>
+</html>

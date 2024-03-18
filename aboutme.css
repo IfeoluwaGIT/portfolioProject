@@ -1,0 +1,49 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.about-me img {
+    width: 200px; /* Adjust the width as needed */
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 20px;
+}
+
+.about-me h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,150 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.about-me, #projects, .form-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-me {
+    display: flex;
+    background-color: #555;
+    color: #f4f4f4;   
+}
+.aboutme{
+    text-align: center;
+    margin-top: 120px;
+}
+.iboy {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#projects {
+    display: inline-flex;
+    margin-right: 5px;
+}
+.project {
+    margin-bottom: 20px;
+}
+
+.project h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#logos img {
+    width: 50px;
+    margin-top: 20px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #1f1f1f;
+    color: #ddd;
+}
+
+/* Styles for toggler */
+.toggle-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.toggle-label {
+    cursor: pointer;
+    color: #ddd;
+}

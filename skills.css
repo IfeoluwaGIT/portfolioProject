@@ -1,0 +1,117 @@
+html {
+    background-color: black;
+    color: aliceblue;
+}
+.search-bar {
+    
+}
+
+.skill-box {
+    
+        border: 1px solid #000;
+        padding: 10px;
+}
+.javascript {
+    border-style: dotted;
+    color: brown;
+    display: flex;
+    height: 50%;
+    
+
+}
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+        
+}
+#line-1{
+    display: inline-flex;
+}
+
+#line-2{
+    display: inline-flex;
+}
+
+#line-3{
+    display: inline-flex;
+}
+
+.box.js {
+    background-image: url('path_to_your_js_image.jpg');
+}
+
+.box.ts {
+    background-image: url('path_to_your_ts_image.jpg');
+}
+
+.box.css {
+    background-image: url('/Users/mac/Desktop/master/download (1).png');
+}
+
+.box.html {
+    background-image: url('path_to_your_html_image.jpg');
+}
+
+.box.sa {
+    background-image: url('path_to_your_sass_image.jpg');
+}
+
+.box.re {
+    background-image: url('path_to_your_react_image.jpg');
+}
+
+.box.s {
+    background-image: url('path_to_your_svelte_image.jpg');
+}
+
+.dropbtn {
+    color: white;
+    padding: 14px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #2980B9;}
